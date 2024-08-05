@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FEDA79C82C61960C0035381D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79C72C61960B0035381D /* LoginViewController.swift */; };
+		FEDA79CA2C61962B0035381D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79C92C61962B0035381D /* RegisterViewController.swift */; };
 		FEEE1DBD2C5934990007BE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE1DBC2C5934990007BE02 /* AppDelegate.swift */; };
 		FEEE1DBF2C5934990007BE02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE1DBE2C5934990007BE02 /* SceneDelegate.swift */; };
 		FEEE1DC12C5934990007BE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE1DC02C5934990007BE02 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FEDA79C72C61960B0035381D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FEDA79C92C61962B0035381D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		FEEE1DB92C5934990007BE02 /* swift-ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEE1DBC2C5934990007BE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEEE1DBE2C5934990007BE02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				FEEE1DBE2C5934990007BE02 /* SceneDelegate.swift */,
 				FEEE1DC02C5934990007BE02 /* ViewController.swift */,
 				FEEE1DC22C5934990007BE02 /* Main.storyboard */,
+				FEDA79C72C61960B0035381D /* LoginViewController.swift */,
+				FEDA79C92C61962B0035381D /* RegisterViewController.swift */,
 				FEEE1DC52C59349B0007BE02 /* Assets.xcassets */,
 				FEEE1DC72C59349B0007BE02 /* LaunchScreen.storyboard */,
 				FEEE1DCA2C59349B0007BE02 /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEDA79C82C61960C0035381D /* LoginViewController.swift in Sources */,
+				FEDA79CA2C61962B0035381D /* RegisterViewController.swift in Sources */,
 				FEEE1DC12C5934990007BE02 /* ViewController.swift in Sources */,
 				FEEE1DBD2C5934990007BE02 /* AppDelegate.swift in Sources */,
 				FEEE1DBF2C5934990007BE02 /* SceneDelegate.swift in Sources */,
