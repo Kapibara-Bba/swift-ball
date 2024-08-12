@@ -11,6 +11,7 @@
 		FEDA79CA2C61962B0035381D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79C92C61962B0035381D /* RegisterViewController.swift */; };
 		FEDA79CC2C63BDB20035381D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79CB2C63BDB20035381D /* MainViewController.swift */; };
 		FEDA79CE2C6510620035381D /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79CD2C6510620035381D /* TopViewController.swift */; };
+		FEDA79D02C68EF6B0035381D /* TeamRegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79CF2C68EF6B0035381D /* TeamRegistViewController.swift */; };
 		FEEE1DBD2C5934990007BE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE1DBC2C5934990007BE02 /* AppDelegate.swift */; };
 		FEEE1DBF2C5934990007BE02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE1DBE2C5934990007BE02 /* SceneDelegate.swift */; };
 		FEEE1DC12C5934990007BE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEE1DC02C5934990007BE02 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		FEDA79C92C61962B0035381D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		FEDA79CB2C63BDB20035381D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FEDA79CD2C6510620035381D /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		FEDA79CF2C68EF6B0035381D /* TeamRegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRegistViewController.swift; sourceTree = "<group>"; };
 		FEEE1DB92C5934990007BE02 /* swift-ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEE1DBC2C5934990007BE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEEE1DBE2C5934990007BE02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		FEEE1DB02C5934990007BE02 = {
 			isa = PBXGroup;
 			children = (
+				FEDA79CF2C68EF6B0035381D /* TeamRegistViewController.swift */,
 				FEDA79CD2C6510620035381D /* TopViewController.swift */,
 				FEDA79CB2C63BDB20035381D /* MainViewController.swift */,
 				FEEE1DBB2C5934990007BE02 /* swift-ball */,
@@ -155,6 +158,7 @@
 				FEEE1DC12C5934990007BE02 /* ViewController.swift in Sources */,
 				FEDA79CC2C63BDB20035381D /* MainViewController.swift in Sources */,
 				FEEE1DBD2C5934990007BE02 /* AppDelegate.swift in Sources */,
+				FEDA79D02C68EF6B0035381D /* TeamRegistViewController.swift in Sources */,
 				FEEE1DBF2C5934990007BE02 /* SceneDelegate.swift in Sources */,
 				FEDA79CE2C6510620035381D /* TopViewController.swift in Sources */,
 			);
