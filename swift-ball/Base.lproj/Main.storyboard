@@ -127,6 +127,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="登録"/>
+                                <connections>
+                                    <segue destination="QTL-8b-YQz" kind="show" id="E0v-kS-Sz9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sth-Zn-YI4"/>
@@ -201,6 +204,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNd-Gs-bMH">
+                                <rect key="frame" x="145" y="693" width="104" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="スコア登録"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0PB-9H-6m8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -215,6 +224,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FiW-fR-qxn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2759.5419847328244" y="-282.3943661971831"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rgE-mh-crR">
+            <objects>
+                <viewController id="nFd-9g-gEo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PEV-Wu-MfP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="GPV-3o-NvQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0bR-M3-P4Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3635" y="-281"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rGV-4r-DBf">
@@ -236,6 +260,9 @@
             <point key="canvasLocation" x="35.877862595419849" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="E0v-kS-Sz9"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
