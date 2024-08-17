@@ -151,6 +151,7 @@
                         <viewLayoutGuide key="safeArea" id="TDG-XD-EO6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9D9-gu-cH0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TnI-7p-3WN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -226,6 +227,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="スコア登録"/>
                                 <connections>
                                     <segue destination="nFd-9g-gEo" kind="show" id="0Xl-ON-B1a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbt-GD-e7I">
+                                <rect key="frame" x="122" y="758" width="149" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="個人成績登録"/>
+                                <connections>
+                                    <segue destination="SGb-SW-cTR" kind="show" id="cs4-cF-0y7"/>
                                 </connections>
                             </button>
                         </subviews>
