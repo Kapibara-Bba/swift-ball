@@ -214,7 +214,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="TDG-XD-EO6"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="edi-Eb-Tqq" firstAttribute="centerX" secondItem="9lC-cG-fc3" secondAttribute="centerX" id="Q5b-m7-Lt7"/>
                             <constraint firstItem="edi-Eb-Tqq" firstAttribute="centerY" secondItem="9lC-cG-fc3" secondAttribute="centerY" id="if3-La-7jK"/>
@@ -309,8 +309,8 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0PB-9H-6m8"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <color key="tintColor" systemColor="systemGreenColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="tintColor" systemColor="systemPinkColor"/>
                         <constraints>
                             <constraint firstItem="TZT-yb-CZ5" firstAttribute="centerY" secondItem="Bmb-p7-RBD" secondAttribute="centerY" id="CCg-Ba-8XZ"/>
                             <constraint firstItem="TZT-yb-CZ5" firstAttribute="centerX" secondItem="Bmb-p7-RBD" secondAttribute="centerX" id="eaX-T6-uoY"/>
@@ -378,7 +378,7 @@
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="GPV-3o-NvQ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="klg-jE-CeZ"/>
                 </viewController>
