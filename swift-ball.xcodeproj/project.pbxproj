@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FECE2A532C848A5100617CAB /* RankingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECE2A522C848A5100617CAB /* RankingController.swift */; };
 		FEDA79C82C61960C0035381D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79C72C61960B0035381D /* LoginViewController.swift */; };
 		FEDA79CA2C61962B0035381D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79C92C61962B0035381D /* RegisterViewController.swift */; };
 		FEDA79CC2C63BDB20035381D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDA79CB2C63BDB20035381D /* MainViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FECE2A522C848A5100617CAB /* RankingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingController.swift; sourceTree = "<group>"; };
 		FEDA79C72C61960B0035381D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FEDA79C92C61962B0035381D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		FEDA79CB2C63BDB20035381D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		FEEE1DB02C5934990007BE02 = {
 			isa = PBXGroup;
 			children = (
+				FECE2A522C848A5100617CAB /* RankingController.swift */,
 				FEDA79D32C6F60990035381D /* StatsViewController.swift */,
 				FEDA79D12C6BA30A0035381D /* ScoreViewController.swift */,
 				FEDA79CF2C68EF6B0035381D /* TeamRegistViewController.swift */,
@@ -162,6 +165,7 @@
 				FEDA79C82C61960C0035381D /* LoginViewController.swift in Sources */,
 				FEDA79CA2C61962B0035381D /* RegisterViewController.swift in Sources */,
 				FEEE1DC12C5934990007BE02 /* ViewController.swift in Sources */,
+				FECE2A532C848A5100617CAB /* RankingController.swift in Sources */,
 				FEDA79CC2C63BDB20035381D /* MainViewController.swift in Sources */,
 				FEEE1DBD2C5934990007BE02 /* AppDelegate.swift in Sources */,
 				FEDA79D02C68EF6B0035381D /* TeamRegistViewController.swift in Sources */,
